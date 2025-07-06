@@ -1,0 +1,1 @@
+The list used is curated by user Neetcode and the list is available over here(https://neetcode.io/)
