@@ -15,5 +15,5 @@ class Solution:
 """
 Question: https://leetcode.com/problems/reverse-string
 Time complexity: O(n), where n is the length of the input list.
-Space complexity: O(1), as we are using a constant amount of extra space for the temporary variable.        # Time complexity: O(n), where n is the length of the input list.
+Space complexity: O(1), as we are using a constant amount of extra space for the temporary variable.
 """ 
