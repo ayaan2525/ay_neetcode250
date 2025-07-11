@@ -11,3 +11,9 @@ class Solution:
         merged.append(word2[min_len:])
 
         return "".join(merged)
+    
+"""
+Question: https://leetcode.com/problems/merge-strings-alternately
+Time complexity: O(n+m),
+Space complexity: O(n+m)
+"""
