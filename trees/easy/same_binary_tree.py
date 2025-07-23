@@ -7,6 +7,10 @@
 
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        # Check if both nodes are None
+        # If both are None, empty: return True
+        # If one is None and the other is not, they are not the same tree: return False
+        # If both are not None, check their values and recursively check their left and right subtrees
         if not p and not q:
             return True
         if not p or not q:
