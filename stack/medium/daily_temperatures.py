@@ -11,7 +11,8 @@ class Solution(object):
         # Using stack to keep track of indices of temperatures
         # that have not found a warmer day yet
         # If the current temperature is warmer than the temperature at the index on top of the stack
-        # then we can pop that index and calculate the difference
+        # then we keep popping from the stack until we find a temperature that is warmer
+        # If we find such a temperature, we calculate the difference in indices
         # Otherwise, we push the current index onto the stack
         for i in range(n-1,-1,-1):
             while stack and temperatures[stack[-1]] <= temperatures[i]:
