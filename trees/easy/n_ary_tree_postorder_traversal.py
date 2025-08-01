@@ -23,3 +23,9 @@ class Solution(object):
             result.append(node.val)
         postorder_dfs(root)
         return result
+"""
+Question: https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+Time Complexity: O(n), where n is the number of nodes in the tree.
+Space Complexity: O(n), for the recursion stack and the output list
+Try to use iterative approach as well.
+"""
