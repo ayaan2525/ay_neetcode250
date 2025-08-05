@@ -46,5 +46,9 @@ class Solution:
             l2 = l2_next
         
 
-
+"""
+Question: https://leetcode.com/problems/reorder-list/
+Time Complexity: O(n), where n is the number of nodes in the linked list.
+Space Complexity: O(1), no extra space is used.
+"""
         
